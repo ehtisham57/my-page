@@ -150,14 +150,14 @@ background: #ffffff;
 
 
 .row h5{
-    color: rgba(253, 224, 125, 1);;
+    color: rgba(253, 224, 125, 1);
   }
   .row a{
     color: white;
     text-decoration: none;
   }
   .footer-container{
-      width: 100%;
+    width: 100%;
     background-image: url(../images/footer\ bnnr.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -226,6 +226,17 @@ background: #ffffff;
         grid-template-columns: repeat(1,1fr);
         
     }
+    .row h5{
+        color: rgba(253, 224, 125, 1);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+      .row a{
+        color: white;
+        text-decoration: none;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
 }
 
 @media (max-width: 300px) {
@@ -249,4 +260,15 @@ background: #ffffff;
         grid-template-columns: repeat(1,1fr);
         
     }
+    .row h5{
+        color: rgba(253, 224, 125, 1);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+      .row a{
+        color: white;
+        text-decoration: none;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
 }
